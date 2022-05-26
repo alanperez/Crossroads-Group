@@ -9,6 +9,7 @@ interface Commit {
     author: {
         date: string;
         name: string;
+        email: string;
     }
     message: string;
     
